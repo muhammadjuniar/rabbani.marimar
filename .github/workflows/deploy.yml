@@ -23,6 +23,4 @@ jobs:
           # ssh port of the server
           port: 22
           # command to be executed
-          script: |
-            cd /var/www/rabbani.marimar
-            git pull
+          COMMAND: "cd /var/www/rabbani.marimar && ./deploy.sh"
