@@ -1,5 +1,5 @@
 <template>
-  <div class="home">
+  <div>
     <HomePage />
   </div>
 </template>
@@ -14,4 +14,4 @@ export default {
     HomePage
   }
 }
-</script>@/components/HomePage.vue
+</script>
