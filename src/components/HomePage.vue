@@ -58,9 +58,9 @@
           </div>
           <div class="col-12 text-center mt-3">
             <div class="btn btn-xl btn-daftar-marimar mt-3">DAFTAR SEKARANG</div>
-            <!-- <router-link to="member"> -->
+            <router-link to="member">
             <div class="btn btn-xl btn-marimar mt-3">MEMBER AREA</div>
-            <!-- </router-link> -->
+            </router-link>
             <div class="btn btn-xl btn-marimar mt-3">VOTE MARIMAR</div>
           </div>
           <div class="col-12 text-center footer relative">
