@@ -1,76 +1,82 @@
 <template>
-  <div>
-    <div class="row">
-      <div class="col-12 pw0 mt-5">
-        <img class="ribbon" src="~@/assets/img_ribbon_1.svg" alt="..." />
-      </div>
-      <div class="col-12">
-        <img class="logo-marimar" src="~@/assets/img_logo_marimar.png" alt="..." />
-      </div>
-      <div class="col-12 relative pw0">
-        <img class="ribbon-2" src="~@/assets/img_ribbon_2.png" alt="..." />
-        <img class="doodle-kiri" width="100px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
-        <img class="doodle-kanan" width="50px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
-      </div>
-      <div class="col-12 text-center">
-        <img class="marimar" src="~@/assets/img_badge_marimar.png" alt="..." />
-        <div class="btn btn-xl btn-daftar-marimar mt-5">DAFTAR SEKARANG</div>
-        <div class="text-read-more mt-5 mb-3">Pelajari Lebih Lanjut</div>
-      </div>
-      <div class="col-12 pw0">
-        <img class="ribbon" src="~@/assets/img_ribbon_3.png" alt="..." />
-      </div>
-      <div class="col-12 relative">
-        <div class="video-player">
-          <iframe width="100%" height="200" src="https://www.youtube.com/embed/hf7vviUkRno?si=taGSWIiQ00-SvhgY"
-            title="YouTube video player" frameborder="0"
-            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-            referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  <div class="container pw0">
+    <div class="row justify-content-center m0">
+      <div class="col-12 col-lg-4 content-body">
+        <div class="row">
+          <div class="col-12 pw0 mt-5">
+            <img class="ribbon" src="~@/assets/img_ribbon_1.svg" alt="..." />
+          </div>
+          <div class="col-12">
+            <img class="logo-marimar" src="~@/assets/img_logo_marimar.png" alt="..." />
+          </div>
+          <div class="col-12 relative pw0">
+            <img class="ribbon-2" src="~@/assets/img_ribbon_2.png" alt="..." />
+            <img class="doodle-kiri" width="100px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
+            <img class="doodle-kanan" width="50px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
+          </div>
+          <div class="col-12 text-center">
+            <img class="marimar" src="~@/assets/img_badge_marimar.png" alt="..." />
+            <div class="btn btn-xl btn-daftar-marimar mt-5">DAFTAR SEKARANG</div>
+            <div class="text-read-more mt-5 mb-4">Pelajari Lebih Lanjut</div>
+          </div>
+          <div class="col-12 pw0">
+            <img class="ribbon" src="~@/assets/img_ribbon_3.png" alt="..." />
+          </div>
+          <div class="col-12 relative">
+            <div class="video-player">
+              <iframe width="100%" height="230" src="https://www.youtube.com/embed/hf7vviUkRno?si=taGSWIiQ00-SvhgY"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+            <img class="doodle-kiri-video" width="100px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
+            <img class="doodle-kanan-video" width="150px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
+          </div>
+          <div class="col-12 text-ajakan">
+            <div class="text-title">MARI BU HADROH KEMBALI!!!!</div>
+            <div class="text-paragraph mt-4">
+              <p>Untuk memeriahkan kemerdekaan Indonesia. Rabbani mengadakan kembali kompetisi
+                Qasidah terbaik MARIMAR di Agustus 2024
+              </p>
+              <p>
+                Jangan sampai ketinggalan
+                jangan sampai latihan mulu tapi gak manggung-manggung
+              </p>
+              <p>
+                Daftar sekarang juga! Dapatkan hadiah jutaan rupiah
+              </p>
+              <p>
+                ssttt, baru daftar aja udah dikasih
+                hadiah lohhh, gak percaya? yuk buktiin sekarang
+              </p>
+            </div>
+          </div>
+          <div class="col-12 total-hadiah relative">
+            <img class="ribbon" src="~@/assets/img_gege.png" alt="..." />
+            <img class="doodle-kiri-gege" width="80px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
+            <img class="doodle-kanan-gege" width="100px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
+          </div>
+          <div class="col-12 text-center mt-3">
+            <div class="btn btn-xl btn-daftar-marimar mt-3">DAFTAR SEKARANG</div>
+            <!-- <router-link to="member"> -->
+            <div class="btn btn-xl btn-marimar mt-3">MEMBER AREA</div>
+            <!-- </router-link> -->
+            <div class="btn btn-xl btn-marimar mt-3">VOTE MARIMAR</div>
+          </div>
+          <div class="col-12 text-center footer relative">
+            <img width="222" src="~@/assets/img_logo_marimar.png" alt="..." />
+            <img class="doodle-kiri-footer" width="80px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
+            <img class="doodle-kanan-footer" width="70px" src="~@/assets/img_kurupuk_potong.png" alt="..." />
+          </div>
+          <div class="col-12 text-center mt-5">
+            <div class="text-footer mb-2">MARIMAR 2024 Organize by:</div>
+            <img width="54" src="~@/assets/ico_marketeam.png" alt="">
+          </div>
+          <div class="col-12 text-center mt-5 mb-5">
+            <div class="text-footer mb-1">MARIMAR 2024 Sponsored by:</div>
+            <img width="52" src="~@/assets/ico_rabbani_dpr.png" alt="">
+          </div>
         </div>
-        <img class="doodle-kiri-video" width="100px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
-        <img class="doodle-kanan-video" width="150px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
-      </div>
-      <div class="col-12 text-ajakan">
-        <div class="text-title">MARI BU HADROH KEMBALI!!!!</div>
-        <div class="text-paragraph mt-4">
-          <p>Untuk memeriahkan kemerdekaan Indonesia. Rabbani mengadakan kembali kompetisi
-            Qasidah terbaik MARIMAR di Agustus 2024
-          </p>
-          <p>
-            Jangan sampai ketinggalan
-            jangan sampai latihan mulu tapi gak manggung-manggung
-          </p>
-          <p>
-            Daftar sekarang juga! Dapatkan hadiah jutaan rupiah
-          </p>
-          <p>
-            ssttt, baru daftar aja udah dikasih
-            hadiah lohhh, gak percaya? yuk buktiin sekarang
-          </p>
-        </div>
-      </div>
-      <div class="col-12 total-hadiah relative">
-        <img class="ribbon" src="~@/assets/img_gege.png" alt="..." />
-        <img class="doodle-kiri-gege" width="80px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
-        <img class="doodle-kanan-gege" width="100px" src="~@/assets/img_kurupuk_kanan.png" alt="..." />
-      </div>
-      <div class="col-12 text-center mt-3">
-        <div class="btn btn-xl btn-daftar-marimar mt-3">DAFTAR SEKARANG</div>
-        <div class="btn btn-xl btn-marimar mt-3">MEMBER AREA</div>
-        <div class="btn btn-xl btn-marimar mt-3">VOTE MERIMAR</div>
-      </div>
-      <div class="col-12 text-center footer relative">
-        <img width="222" src="~@/assets/img_logo_marimar.png" alt="..." />
-        <img class="doodle-kiri-footer" width="80px" src="~@/assets/img_kurupuk_kiri.png" alt="..." />
-        <img class="doodle-kanan-footer" width="70px" src="~@/assets/img_kurupuk_potong.png" alt="..." />
-      </div>
-      <div class="col-12 text-center mt-5">
-        <div class="text-footer mb-2">MARIMAR 2024 Organize by:</div>
-        <img width="54" src="~@/assets/ico_marketeam.png" alt="">
-      </div>
-      <div class="col-12 text-center mt-5 mb-5">
-        <div class="text-footer mb-1">MARIMAR 2024 Sponsored by:</div>
-        <img width="52" src="~@/assets/ico_rabbani_dpr.png" alt="">
       </div>
     </div>
   </div>
@@ -89,6 +95,16 @@ export default {
 <style scoped>
 @import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.content-body {
+  background: url('~@/assets/img_background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.m0 {
+  margin: 0 !important;
+}
 
 .ribbon {
   width: 100%;
@@ -298,5 +314,4 @@ export default {
 .pt15 {
   padding-top: 150px !important;
 }
-
 </style>
