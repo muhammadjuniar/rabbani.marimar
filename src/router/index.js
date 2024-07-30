@@ -1,6 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import MemberAreaView from "@/views/MemberAreaView.vue";
+import VotingView from "@/views/VotingView.vue";
 
 const routes = [
   {
@@ -12,6 +13,11 @@ const routes = [
     path: "/member",
     name: "member",
     component: MemberAreaView,
+  },
+  {
+    path: "/voting",
+    name: "voting",
+    component: VotingView,
   },
 ];
 
